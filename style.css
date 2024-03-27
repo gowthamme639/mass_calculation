@@ -135,3 +135,6 @@ font-size: larger;
 }
     
 }
+@media only screen and (max-width: 600px) {
+    /* CSS styles for screens smaller than 600px (e.g., mobile devices) */
+}

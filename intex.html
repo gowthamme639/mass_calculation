@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass Calculation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mass Calculation</h1>
+        <div class="input-container">
+            <label for="density">Density (kg/mm³) :</label>
+            <input type="number" id="density" value="0.00000786" readonly step="0.01">
+        </div>
+        <div class="input-container">
+            <label for="area">Area (mm²) :</label>
+            <input type="number" id="area" placeholder="Type Surface area" required step="0.01">
+        
+        <div class="input-container">
+            <label for="thickness">Thickness (mm) :</label>
+            <input type="number" id="thickness" placeholder="Type Thickness" required step="0.01">
+        </div>
+        <div><center>
+                <div><button onclick="calculateMass()" class="button">Calculate</button></div>
+                <div><button onclick="reset()" class="button">Reset</button> </div>
+                <div class="result" id="result"></div>
+              </center> </div>
+              <div id="h6"> <p><h5> © 2024 created by Gowtham S</h3></p></div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
